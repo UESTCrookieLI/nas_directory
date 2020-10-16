@@ -126,3 +126,37 @@ NAS:/Public/datasets 文件夹用于存储公共数据集（网上发布的公�
     - depth
     - stereo
 - 上传者：陈才
+
+## CelebA
+- 主页：[Large-scale CelebFaces Attributes](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- 关键词：人脸属性标识、人脸检测、GAN
+- 引用：[Deep Learning Face Attributes in the Wild](https://arxiv.org/pdf/1411.7766.pdf)
+- 相关链接：[CelebA数据集介绍及处理](https://blog.csdn.net/weixin_39881922/article/details/81877005)    
+- 说明：CelebA是CelebFaces Attribute的缩写，意即名人人脸属性数据集，其包含10,177个名人身份的202,599张人脸图片，每张图片都做好了特征标记，包含人脸bbox标注框、5个人脸特征点坐标以及40个属性标记，CelebA由香港中文大学开放提供，广泛用于人脸相关的计算机视觉训练任务，可用于人脸属性标识训练、人脸检测训练以及landmark标记等。原本是三个压缩包，只下载了最常用的裁剪好的那个，如有需要，可以去官网的百度网盘链接中找到并下载。
+- 目录： CelebA
+    - Anno
+    - Eval
+    - Img
+- 上传者：李子琦
+
+## CelebAMask-HQ
+- 主页：[github CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ)
+- 关键词：人脸语义分割mask、人脸修复、人脸识别、人脸生成和编辑GAN
+- 引用：[MaskGAN: Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/pdf/1907.11922.pdf)
+- 相关链接：[使用了该数据集的work:face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch)
+- 说明：CelebAMask-HQ is a large-scale face image dataset that has 30,000 high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation mask of facial attributes corresponding to CelebA.
+The masks of CelebAMask-HQ were manually-annotated with the size of 512 x 512 and 19 classes including all facial components and accessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth.
+- 目录：CelebAMask-HQ
+    - CelebA-HQ-img
+    - CelebAMask-HQ-mask-anno
+-上传者：李子琦
+
+
+
+
+
+
+
+
+
+
