@@ -149,7 +149,7 @@ The masks of CelebAMask-HQ were manually-annotated with the size of 512 x 512 an
 - 目录：CelebAMask-HQ
     - CelebA-HQ-img
     - CelebAMask-HQ-mask-anno
--上传者：李子琦
+- 上传者：李子琦
 
 
 
